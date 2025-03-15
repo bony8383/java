@@ -1,0 +1,20 @@
+*   [33mfb91b74[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Merge remote-tracking branch 'origin/main'
+[31m|[m[32m\[m  
+[31m|[m *   [33mababcb2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m merge
+[31m|[m [33m|[m[34m\[m  
+* [33m|[m [34m\[m   [33m3eed7da[m asan homework
+[33m|[m[34m\[m [33m\[m [34m\[m  
+[33m|[m [34m|[m[33m/[m [34m/[m  
+[33m|[m[33m/[m[34m|[m [34m/[m   
+[33m|[m [34m|[m[34m/[m    
+[33m|[m *   [33me88a38a[m Merge pull request #2 from azamatkgde/azamat
+[33m|[m [1;31m|[m[1;32m\[m  
+[33m|[m [1;31m|[m * [33m1b75889[m For 10 to 1
+[33m|[m [1;31m|[m[1;31m/[m  
+[33m|[m *   [33md35df13[m Merge pull request #1 from azamatkgde/for
+[33m|[m [1;33m|[m[1;34m\[m  
+[33m|[m [1;33m|[m * [33mc2ea4ab[m for for 1 to 4
+[33m|[m [1;33m|[m[1;33m/[m  
+[33m|[m * [33m84f30ef[m git init
+* [33m72d1852[m add gitignore
+* [33m02ba246[m Initial commit
