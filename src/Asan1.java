@@ -20,7 +20,7 @@ public class Asan1 {
         Scanner scanner = new Scanner(System.in);
 
         int x = scanner.nextInt();
-        System.out.println("таблица 0...10");
+        System.out.println("таблица 1:10 кобойтуу учун санды жаз");
 
         for (int i = 1; i <= 10; i++) {
             System.out.println(i + "*" + x + "=" + (x * i));
@@ -28,7 +28,7 @@ public class Asan1 {
                 scanner.close();
             }
 
-        }
+
     }
 }
 
