@@ -1,9 +1,7 @@
-package arrays.azamat;
-
+package arrays.aizat;
 import java.util.Arrays;
-
-public class OneDimensionalArrayExample {
-    public static void main(String[] args) {
+public class ArrayExample {
+    public static void main(String[] args){
         // 1. Массивди жарыялоо (узун форма)
         int[] numbers;
         numbers = new int[5];
