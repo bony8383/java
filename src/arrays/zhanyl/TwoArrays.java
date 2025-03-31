@@ -69,7 +69,7 @@ public class TwoArrays {
         System.out .println("Матрица:");
         for(int i=0; i<rows; i++){
             for(int j=0; j<clos; j++){
-                System .out.println(matrix1[i][j]+" ");
+                System .out.print(matrix1[i][j]+" ");
             }
         }
         scanner .close() ;
@@ -80,14 +80,14 @@ public class TwoArrays {
             Zahl[i]= random.nextInt(100)+1;
         }
         System.out.println("Массивдин элементтери (толтурулган):");
-        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(Zahl));
         Arrays.sort(Zahl);
         System.out.println("Массивдин элементтери (сорттолгон):");
         System.out.println(Arrays.toString(numbers));
         Scanner scanner2=new Scanner(System .in );
         System .out .println("Сан жаз:");
         int searchValue = scanner.nextInt();
-        int result = Arrays.binarySearch(numbers, searchValue);
+        int result = Arrays.binarySearch(Zahl , searchValue);
         if (result >= 0) {
             System.out.println("Сан табылды. Индекси: " + result);
         } else {
