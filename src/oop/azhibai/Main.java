@@ -2,22 +2,20 @@ package oop.azhibai;
 
 public class Main {
     public static void main(String[] args){
-        Cat cat = new Cat();
-        cat.name = "Garfield";
-        cat.age = 8;
-        cat.color = "Ак";
-        cat.weigth = 10;
 
-        cat.run();
+        Cat cat1 = new Cat();
+        cat1.setName("Tom");
+        cat1.setAge(10);
+        cat1.setColor("gray");
+        cat1.setWeigth(7);
+        System.out.println(cat1.getCatsummary());
 
-        Car car = new Car();
-        car.model = "Tayota Camry";
-        car.year = 2010;
-        car.color = "кара";
-        car.country = "Япония";
+        Cat cat2 = new Cat("Garfield",11,"white", 15);
+        cat2.run();
 
-        car.tayota();
-
+        //бала класс
+        Kitten kitten = new Kitten("Luna", 2, "gray", 1, true, true);
+        System.out.println(kitten.getKitteninfo());
     }
 
 
