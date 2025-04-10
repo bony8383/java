@@ -1,4 +1,4 @@
-package variable.omka;
+package basics.azamat.omka;
 
 class SaleOfCars {
     private String marka;
@@ -27,7 +27,7 @@ class SaleOfCars {
             isAvailable = true;
             System.out.println(marka + " " + model + " кайтарылды!");
         } else {
-            System.out.println(marka + " " + model + "Арендада эмес");
+            System.out.println(marka + " " + model + " Арендада эмес");
         }
     }
 

@@ -1,4 +1,4 @@
-package variable.omka;
+package basics.azamat.omka;
 import java.util.Scanner;
 
 public class Main {
@@ -36,7 +36,6 @@ public class Main {
                 System.out.println("Программа жабылды!");
                 break;
             }
-
             switch (choice) {
                 case 1:
                     System.out.println(" Биздеги машиналар:");
