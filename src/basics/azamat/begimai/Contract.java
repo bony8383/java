@@ -16,9 +16,14 @@ public class Contract {
     }
 
     public void setPrice(int price) {
-        this.price = price;
-
+        if(price<0){
+            System.out.println("Preis darf nicht - Zahl sein");
+        }
+        else {
+            this.price=price;
+        }
     }
+
 
 
 }
