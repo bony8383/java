@@ -3,15 +3,24 @@ package oop.omka;
 
 public class Main {
     public static void main(String[] args){
-        Car car1 = new Car();
+        Auto car1 = new Auto();
         car1.setMarka("Toyota");
         car1.setPreis(5000);
 
-        Car car2 = new Car("BMW", 10000);
-        car1.all();
-        car2.all();
+        Auto car2 = new Auto("BMW", 10000);
 
-        // Setter
+        // Наследованный методдор
+        car1.start();
+        car1.all();
+        car1.stop();
+
+        System.out.println();
+
+        car2.start();
+        car2.all();
+        car2.stop();
+
+        // Setter текшерүү
         car1.setPreis(7000);
         System.out.println("Жаңыртылган баасы: " + car1.getPreis() + " доллар");
     }
