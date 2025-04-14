@@ -58,7 +58,7 @@ public class Cat {
             this.weigth = weigth;
 
         } else {
-            System.out.println("Invalid cat weith! ");
+            System.out.println("Invalid cat weith ");
         }
     }
     public void run(){

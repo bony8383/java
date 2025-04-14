@@ -18,7 +18,7 @@ public class Kitten extends Cat{
                 ", can eat solid food: " + canEatSolidFood;
     }
 
-    public boolean isVaccinated() {
+    public boolean getVaccinated() {
         return vaccinated;
     }
 
@@ -26,7 +26,7 @@ public class Kitten extends Cat{
         this.vaccinated = vaccinated;
     }
 
-    public boolean isCanEatSolidFood() {
+    public boolean getCanEatSolidFood() {
         return canEatSolidFood;
     }
 
