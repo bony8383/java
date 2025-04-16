@@ -27,3 +27,4 @@ public class Weather {
         System.out.println("Шаар: " + city + ", Температура: " + temperature + "°C, Аба ырайы: " + condition);
     }
 }
+//
